@@ -19,5 +19,11 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 Huffman Coding is optimal for symbol-by-symbol encoding and is widely used in various applications such as file compression (e.g., ZIP files), image compression (e.g., JPEG), and multimedia codecs (e.g., MP3).
 
+### Introduction to David A. Huffman
+
+[David A. Huffman](https://en.wikipedia.org/wiki/David_A._Huffman) (August 9, 1925 - October 7, 1999) was an American computer scientist and professor, known for his pioneering work in the field of information theory and data compression. Huffman was in Ohio and went on to study at the Massachussets Institute of Technology (MIT), where he completed his Ph.D. in electrical engineering.
+
+While still a graduate student, Huffman devised the [Huffman Coding algorithm](https://en.wikipedia.org/wiki/Huffman_coding) as part of a term paper for a course on information theory taught by [Robert M. Fano](https://en.wikipedia.org/wiki/Huffman_coding).
+
 
 
