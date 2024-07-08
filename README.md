@@ -17,7 +17,7 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 1. *Generating Codes*: Assign binary codes to characters by traversing the Huffman Tree. Each left edge represents `0`, and each right edge represents a `1`.
 
-Huffman Coding is optimal for symbol-by-symbol encoding and is widely used in various applications such as file compression (e.g., ZIP files), image compression (e.g., JPEG), and multimedia codecs (e.g., MP3).
+Huffman Coding is optimal for symbol-by-symbol encoding and is widely used in various applications such as file compression (e.g., [ZIP](https://en.wikipedia.org/wiki/ZIP_(file_format)) files), image compression (e.g., [JPEG](https://en.wikipedia.org/wiki/JPEG)), and multimedia codecs (e.g., [MP3](https://en.wikipedia.org/wiki/MP3)).
 
 ### Introduction to David A. Huffman
 
