@@ -9,5 +9,15 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 [**Huffman Coding**](https://en.wikipedia.org/wiki/Huffman_coding) is a widely used method of lossless data compression. It was developed by [David A. Huffman](https://en.wikipedia.org/wiki/David_A._Huffman) while he was a Ph.D. student at MIT, and it was published in his seminal paper in 1952. The algorithm is used to compress data by assigning variable-length codes to characters based on their frequencies. Characters that occur more frequently are given shorter codes, while less frequent characters are assigned longer codes. This approach reduces the overall size of the encoded data.
 
+### The process of Huffman Coding involves:
+
+1. *Frequency Analysis*: Calculate the frequency of each character in the input data.
+
+1. *Building a Huffman Tree*: Create a binary tree where each leaf node represents a character and its frequency. The tree is built by repeatedly merging the two nodes with the lowest frequencies until only one node remains (the root of the tree).
+
+1. *Generating Codes*: Assign binary codes to characters by traversing the Huffman Tree. Each left edge represents `0`, and each right edge represents a `1`.
+
+Huffman Coding is optimal for symbol-by-symbol encoding and is widely used in various applications such as file compression (e.g., ZIP files), image compression (e.g., JPEG), and multimedia codecs (e.g., MP3).
+
 
 
