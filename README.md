@@ -106,6 +106,51 @@ First, we need a frequency table for the English letters. Here's a commonly used
 <td>P</td><td>1.929</td>
 </tr>
 
+<!-- Remaining rows -->
+
+<tr> 
+<td>Q</td><td>0.095</td>
+</tr>
+
+<tr>
+<td>R</td><td>5.987</td>
+</tr>
+
+<tr>
+<td>S</td><td>6.327</td>
+</tr>
+
+<tr>
+<td>T</td><td>9.056</td>
+</tr>
+
+<tr>
+<td>U</td><td>2.758</td>
+</tr>
+
+<tr>
+<td>V</td><td>0.978</td>
+</tr>
+
+<tr>
+<td>W</td><td>2.36</td>
+</tr>
+
+<tr>
+<td>X</td><td>0.15</td>
+</tr>
+
+<tr>
+<td>Y</td><td>1.974</td>
+</tr>
+
+<tr>
+<td>Z</td><td>0.074</td>
+</tr>
+
+<tr>
+<td>SPACE</td><td>18.29</td>
+</tr>
 
 </table>
 
