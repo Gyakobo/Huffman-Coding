@@ -31,9 +31,21 @@ David Huffman's work has had a lasting impact on how data is efficiently stored 
 
 ## Methodology
 
-### **Step 1: Frequency Table of English Letters**
+### Step 1: Frequency Table of English Letters
 
 First, we need a frequency table for the English letters. Here's a commonly used table based on large corpora of English texts:
+
+```python
+# Frequency table of English letters (including space)
+frequency_table = {
+    'A': 8.167, 'B': 1.492, 'C': 2.782, 'D': 4.253, 'E': 12.702,
+    'F': 2.228, 'G': 2.015, 'H': 6.094, 'I': 6.966, 'J': 0.153,
+    'K': 0.772, 'L': 4.025, 'M': 2.406, 'N': 6.749, 'O': 7.507,
+    'P': 1.929, 'Q': 0.095, 'R': 5.987, 'S': 6.327, 'T': 9.056,
+    'U': 2.758, 'V': 0.978, 'W': 2.360, 'X': 0.150, 'Y': 1.974,
+    'Z': 0.074, ' ': 18.29
+}
+```
 
 <table>
 
@@ -114,6 +126,48 @@ First, we need a frequency table for the English letters. Here's a commonly used
 </tr>
 
 </table>
+
+### Step 2: Build a Huffman Code for English
+
+We still use the frequency table to build a Huffman Tree and derive the Huffman codes for each character. Here's a simplified version of the process:
+
+1. **Initialize**: Create a leaf node for each character and add it to a priority queue based on frequency. 
+
+```python
+# Count frequency of each character in the sample text
+sample_freq = Counter(sample_text.upper())
+```
+
+2. **Build the Tree**:
+* Extract two nodes with the lowest frequency.
+* Create a new internal node with these two nodes as children and the sum of their frequencies as the new frequency.
+* Insert the new node back into the priority queue.
+* Repeat until only one node (the root) remains.
+
+```python
+# Build Huffman Tree
+heap = [[weight, [char, ""]] for char, weight in frequency_table.items()]
+heapq.heapify(heap)
+
+while len(heap) > 1:
+    lo = heapq.heappop(heap)
+    hi = heapq.heappop(heap)
+    for pair in lo[1:]:
+        pair[1] = '0' + pair[1]
+    for pair in hi[1:]:
+        pair[1] = '1' + pair[1]
+    heapq.heappush(heap, [lo[0] + hi[0]] + lo[1:] + hi[1:])
+```
+
+3. **Generate Codes**: Traverse the tree to assign codes to each character.
+
+```python
+# Generate Huffman codes
+huffman_codes = sorted(heap[0][1:], key=lambda p: (len(p[-1]), p))
+
+# Calculate the number of bits needed using Huffman coding
+huffman_bits = sum(sample_freq[char] * len(code) for char, code in huffman_codes if char in sample_freq)
+```
 
 ## License
 MIT
