@@ -40,111 +40,72 @@ First, we need a frequency table for the English letters. Here's a commonly used
 <thead>
 <td>Letter</td>
 <td>Frequency (%)</td>
+<td>Letter</td>
+<td>Frequency (%)</td>
 </thead>
 
 <tr>
 <td>A</td><td>8.167</td>
-</tr>
-
-<tr>
 <td>B</td><td>1.492</td>
 </tr>
 
 <tr>
 <td>C</td><td>2.782</td>
-</tr>
-
-<tr>
 <td>D</td><td>4.253</td>
 </tr>
 
 <tr>
 <td>E</td><td>12.702</td>
-</tr>
-
-<tr>
 <td>F</td><td>2.228</td>
 </tr>
 
 <tr>
 <td>G</td><td>2.015</td>
-</tr>
-
-<tr>
 <td>H</td><td>6.094</td>
 </tr>
 
 <tr> 
 <td>I</td><td>6.966</td>
-</tr>
-
-<tr>
 <td>J</td><td>0.153</td>
 </tr>
 
 <tr>
 <td>K</td><td>0.772</td>
-</tr>
-
-<tr>
 <td>L</td><td>4.025</td>
 </tr>
 
 <tr>
 <td>M</td><td>2.406</td>
-</tr>
-
-<tr>
 <td>N</td><td>6.749</td>
 </tr>
 
 <tr>
 <td>O</td><td>7.507</td>
-</tr>
-
-<tr>
 <td>P</td><td>1.929</td>
 </tr>
 
-<!-- Remaining rows -->
-
 <tr> 
 <td>Q</td><td>0.095</td>
-</tr>
-
-<tr>
 <td>R</td><td>5.987</td>
 </tr>
 
 <tr>
 <td>S</td><td>6.327</td>
-</tr>
-
-<tr>
 <td>T</td><td>9.056</td>
 </tr>
 
 <tr>
 <td>U</td><td>2.758</td>
-</tr>
-
-<tr>
 <td>V</td><td>0.978</td>
 </tr>
 
 <tr>
 <td>W</td><td>2.36</td>
-</tr>
-
-<tr>
 <td>X</td><td>0.15</td>
 </tr>
 
 <tr>
 <td>Y</td><td>1.974</td>
-</tr>
-
-<tr>
 <td>Z</td><td>0.074</td>
 </tr>
 
