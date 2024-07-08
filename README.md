@@ -31,7 +31,7 @@ David Huffman's work has had a lasting impact on how data is efficiently stored 
 
 ## Methodology
 
-### **Step 1 Frequency Table of English Letters**
+### **Step 1: Frequency Table of English Letters**
 
 First, we need a frequency table for the English letters. Here's a commonly used table based on large corpora of English texts:
 
@@ -57,6 +57,55 @@ First, we need a frequency table for the English letters. Here's a commonly used
 <tr>
 <td>D</td><td>4.253</td>
 </tr>
+
+<tr>
+<td>E</td><td>12.702</td>
+</tr>
+
+<tr>
+<td>F</td><td>2.228</td>
+</tr>
+
+<tr>
+<td>G</td><td>2.015</td>
+</tr>
+
+<tr>
+<td>H</td><td>6.094</td>
+</tr>
+
+<tr> 
+<td>I</td><td>6.966</td>
+</tr>
+
+<tr>
+<td>J</td><td>0.153</td>
+</tr>
+
+<tr>
+<td>K</td><td>0.772</td>
+</tr>
+
+<tr>
+<td>L</td><td>4.025</td>
+</tr>
+
+<tr>
+<td>M</td><td>2.406</td>
+</tr>
+
+<tr>
+<td>N</td><td>6.749</td>
+</tr>
+
+<tr>
+<td>O</td><td>7.507</td>
+</tr>
+
+<tr>
+<td>P</td><td>1.929</td>
+</tr>
+
 
 </table>
 
