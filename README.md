@@ -169,5 +169,9 @@ huffman_codes = sorted(heap[0][1:], key=lambda p: (len(p[-1]), p))
 huffman_bits = sum(sample_freq[char] * len(code) for char, code in huffman_codes if char in sample_freq)
 ```
 
+To run the final program please just run the [main file](https://github.com/Gyakobo/Huffman-Coding/blob/main/main.py). I also wrote a sample encoder that encodes any input with arbitrary bits just for you, my dear reader, to compare their inherit weights. 
+
+## Conclusion
+
 ## License
 MIT
