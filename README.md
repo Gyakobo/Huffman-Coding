@@ -29,3 +29,5 @@ Throughout his career, Huffman made significant contributions to various areas o
 
 David Huffman's work has had a lasting impact on how data is efficiently stored and transmitted, and his legacy continues to influence modern computing and telecommunications.
 
+## License
+MIT
