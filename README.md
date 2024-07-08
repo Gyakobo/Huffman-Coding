@@ -29,5 +29,36 @@ Throughout his career, Huffman made significant contributions to various areas o
 
 David Huffman's work has had a lasting impact on how data is efficiently stored and transmitted, and his legacy continues to influence modern computing and telecommunications.
 
+## Methodology
+
+### **Step 1 Frequency Table of English Letters**
+
+First, we need a frequency table for the English letters. Here's a commonly used table based on large corpora of English texts:
+
+<table>
+
+<thead>
+<td>Letter</td>
+<td>Frequency (%)</td>
+</thead>
+
+<tr>
+<td>A</td><td>8.167</td>
+</tr>
+
+<tr>
+<td>B</td><td>1.492</td>
+</tr>
+
+<tr>
+<td>C</td><td>2.782</td>
+</tr>
+
+<tr>
+<td>D</td><td>4.253</td>
+</tr>
+
+</table>
+
 ## License
 MIT
