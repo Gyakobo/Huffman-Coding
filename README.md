@@ -38,7 +38,7 @@ David Huffman's work has had a lasting impact on how data is efficiently stored 
 
 First, we need a frequency table for the English letters. Here's a commonly used table based on large corpora of English texts:
 
-```python
+```python3
 # Frequency table of English letters (including space)
 frequency_table = {
     'A': 8.167, 'B': 1.492, 'C': 2.782, 'D': 4.253, 'E': 12.702,
