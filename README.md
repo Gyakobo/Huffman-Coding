@@ -30,7 +30,7 @@ While still a graduate student, Huffman devised the [Huffman Coding algorithm](h
 
 Throughout his career, Huffman made significant contributions to various areas of computer science and engineering. He was a professor at MIT and later at the University of California, Santa Cruz, where he helped establish the Computer Science Department.
 
-David Huffman's work has had a lasting impact on how data is efficiently stored and transmitted, and his legacy continues to influence modern computing and telecommunications.
+David Huffman's work has had a lasting impact on how data is efficiently stored and quickly transmitted, and his legacy continues to influence modern computing and telecommunications.
 
 ## Methodology
 
