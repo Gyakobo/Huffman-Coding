@@ -36,7 +36,7 @@ David Huffman's work has had a lasting impact on how data is efficiently stored 
 
 ### Step 1: Frequency Table of English Letters
 
-First, we need a frequency table for the English letters. Here's a commonly used table based on large corpora of English texts:
+First, we need a frequency table for the English letters. Here's a commonly used table based on large corpora of English texts. Below is a representation in Python code:
 
 ```python3
 # Frequency table of English letters (including space)
