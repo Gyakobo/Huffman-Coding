@@ -176,7 +176,7 @@ To run the final program please just run the [main file](https://github.com/Gyak
 
 ## Conclusion
 
-David A. Huffman, though his groundbreaking development of Huffman Coding, revolutionized the field of data compression. His algorithm, created during his time as a Ph.D. student at MIT, stands as a testament to the power of innovative thinking in solving practical problems. Huffman Coding's efficient method of variable-length encoding based on character frequency not only optimizes data storage and transmission but also underpins many modern compression techniques used in everyday digital media. Huffman's work exemplifies the profound impact that a single, elegant solution can have on technology, shaping the way we manage and process information in the digital age.
+David A. Huffman, through his groundbreaking development of Huffman Coding, revolutionized the field of data compression. His algorithm, created during his time as a Ph.D. student at MIT, stands as a testament to the power of innovative thinking in solving practical problems. Huffman Coding's efficient method of variable-length encoding based on character frequency not only optimizes data storage and transmission but also underpins many modern compression techniques used in everyday digital media. Huffman's work exemplifies the profound impact that a single, elegant solution can have on technology, shaping the way we manage and process information in the digital age.
 
 ## License
 MIT
